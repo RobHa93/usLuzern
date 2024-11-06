@@ -1,6 +1,7 @@
-import Textilkunst from "../assets/textilkunst.png"
-import Kunsthandwerk from "../assets/Kunsthandwerk.jpg"
-import Naturkosmetik from "../assets/Naturkosmetik.jpg"
+import { Link } from "react-router-dom";
+import Textilkunst from "../assets/textilkunst.png";
+import Kunsthandwerk from "../assets/Kunsthandwerk.jpg";
+import Naturkosmetik from "../assets/Naturkosmetik.jpg";
 
 const callouts = [
   {
@@ -61,20 +62,20 @@ export default function Example() {
             {callouts.map((callout) => (
               <div key={callout.id} className="group relative mb-20">
                 {/* Bild verlinkt zur Shop-Items Seite */}
-                <a href={callout.href} className="block relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1">
+                <Link to={callout.href} className="block relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1">
                   <img
                     alt={callout.name}
                     src={callout.imageUrl}
                     className="h-full w-full object-cover object-center"
                   />
-                </a>
+                </Link>
                 <h3 className="mt-6 text-lg font-semibold text-gray-900 font-serif">
                   {callout.name}
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 font-sans">{callout.address}</p>
                 {/* "Mehr erfahren" verlinkt zur About-Seite */}
                 <p className="text-sm text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-sans">
-                  <a href="/about-team">Mehr erfahren</a>
+                  <Link to="/about-team">Mehr erfahren</Link>
                 </p>
               </div>
             ))}
