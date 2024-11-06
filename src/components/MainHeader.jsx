@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
-import logo from '../assets/logo_usLuzern.png';
+import logo from '../assets/usLuzern_logo.png';
 
 const navigation = [
   { name: 'Shop', href: '/shop' },
