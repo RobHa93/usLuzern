@@ -57,17 +57,18 @@ export default function Example() {
                 </div>
 
                 <div className="text-sm">
-                  <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500 font-sans">
-                    Passwort vergessen?
-                  </a>
+                <a href="#" className="font-semibold text-[#1E6EB4] hover:text-[#1B61A1] font-sans">
+  Passwort vergessen?
+</a>
+
                 </div>
               </div>
 
               <div>
-                <button
-                  type="submit"
-                  className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 font-sans"
-                >
+              <button
+    type="submit"
+    className="flex w-full justify-center rounded-md bg-[#1E6EB4] px-3 py-1.5 text-sm font-semibold text-white hover:bg-[#1B61A1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1E6EB4] font-sans"
+  >
                   Anmelden
                 </button>
               </div>
