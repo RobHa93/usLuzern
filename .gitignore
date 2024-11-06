@@ -1,24 +1,43 @@
-# Logs
-logs
-*.log
+# node_modules/ Verzeichnis ignorieren
+node_modules/
+ 
+# Tailwind Build Dateien ignorieren
+public/build/
+public/static/
+
+# Tailwind CSS spezifische Cache-Dateien
+tailwind.css
+*.css.map
+
+# build-Ausgabe ignorieren
+dist/
+build/
+
+# Lokale Umgebungsvariablen
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log-Dateien ignorieren
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# IDE/Editor spezifische Dateien
+.vscode/
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# macOS und andere Betriebssystem spezifische Dateien
+*.DS_Store
+Thumbs.db
+
+# Git spezifische Dateien, die nicht hochgeladen werden sollen
+.gitignore
+.git
+
+# Optional: Falls du Lock-Dateien ignorieren willst
+package-lock.json
+yarn.lock
