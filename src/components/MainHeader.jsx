@@ -21,7 +21,7 @@ export default function Example() {
           <span className="sr-only">Your Company</span>
           <img
             alt=""
-            src="src/assets/logo_usLuzern.PNG"
+            src="../src/assets//logo_usLuzern.PNG"
             className="h-8"
           />
         </Link>
@@ -87,7 +87,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="src/assets/logo_usLuzern.PNG"
+                src="../src/assets//logo_usLuzern.PNG"
                 className="h-8 w-auto"
               />
             </Link>

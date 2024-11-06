@@ -5,7 +5,7 @@ function CarouselSlider() {
     <Carousel className="rounded-xl sm:mt-20">
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src="src/assets/luzern1.jpg"
+          src="../src/assets//luzern1.jpg"
           alt="image 1"
           className="h-full w-full object-cover"
         />
@@ -19,7 +19,7 @@ function CarouselSlider() {
 
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src="src/assets/luzern2.jpg"
+          src="../src/assets//luzern2.jpg"
           alt="image 2"
           className="h-full w-full object-cover"
         />
@@ -33,7 +33,7 @@ function CarouselSlider() {
 
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src="src/assets/luzern3.jpg"
+          src="../src/assets//luzern3.jpg"
           alt="image 3"
           className="h-full w-full object-cover"
         />

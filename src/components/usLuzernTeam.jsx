@@ -3,7 +3,7 @@ const people = [
     name: 'Felix Berger',
     role: 'Frontend- und Backend-Entwickler',
     imageUrl:
-      'src/assets/man_placeholder.jpg',
+      '../src/assets//man_placeholder.jpg',
     description:
       'Felix betreut sowohl die Entwicklung der Benutzeroberfläche als auch die Serverarchitektur. Er sorgt dafür, dass alles im Hintergrund reibungslos läuft und die Seite ansprechend und funktional bleibt.',
   },
@@ -11,7 +11,7 @@ const people = [
     name: 'Sophia Anderson',
     role: 'UI/UX Designerin',
     imageUrl:
-      'src/assets/woman_placeholder.jpg',
+      '../src/assets//woman_placeholder.jpg',
     description:
       'Sophia gestaltet das Design und optimiert die Benutzererfahrung, um eine einfache und intuitive Nutzung zu gewährleisten.',
   },
@@ -19,7 +19,7 @@ const people = [
     name: 'Margarete Bauer',
     role: 'Projektleiterin',
     imageUrl:
-      'src/assets/woman_placeholder.jpg',
+      '../src/assets//woman_placeholder.jpg',
     description:
       'Mit ihrer langjährigen Erfahrung im Projektmanagement stellt Margarete sicher, dass alle Projekte effizient und kundenorientiert umgesetzt werden.',
   },
@@ -27,7 +27,7 @@ const people = [
     name: 'Laura Meier',
     role: 'Qualitätssicherung',
     imageUrl:
-      'src/assets/woman_placeholder.jpg',
+      '../src/assets//woman_placeholder.jpg',
     description:
       'Laura überwacht die Qualität der Produkte und Prozesse, um sicherzustellen, dass alle Standards eingehalten und die Kundenerwartungen stets übertroffen werden.',
   },
@@ -35,7 +35,7 @@ const people = [
     name: 'Anna Schmidt',
     role: 'Administration',
     imageUrl:
-      'src/assets/woman_placeholder.jpg',
+      '../src/assets//woman_placeholder.jpg',
     description:
       'Anna kümmert sich um die administrativen Abläufe und sorgt dafür, dass die täglichen Aufgaben reibungslos organisiert sind.',
   },

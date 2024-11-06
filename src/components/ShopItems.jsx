@@ -6,7 +6,7 @@ const products = [
     price: 'CHF 40',
     description: 'Bequeme T-Shirts mit einem einzigartigen Tierlogo, ideal für Tierliebhaber.',
     options: '2 Farben',
-    imageSrc: 'src/assets/item1.jpg',
+    imageSrc: './src/assets/item1.jpg',
     imageAlt: 'T-Shirts mit Tierlogo.',
   },
   {
@@ -16,7 +16,7 @@ const products = [
     price: 'CHF 25',
     description: 'Ein modischer Schal, der jedes Outfit aufwertet.',
     options: 'Einheitsgröße',
-    imageSrc: 'src/assets/item2.jpg',
+    imageSrc: './src/assets/item2.jpg',
     imageAlt: 'Stylischer Schal.',
   },
   {
@@ -26,7 +26,7 @@ const products = [
     price: 'CHF 50',
     description: 'Ein Set aus zwei modernen Kissen, perfekt für Ihr Zuhause.',
     options: 'Verschiedene Designs',
-    imageSrc: 'src/assets/item3.jpg',
+    imageSrc: './src/assets/item3.jpg',
     imageAlt: 'Moderne Kissen.',
   },
   {
@@ -36,7 +36,7 @@ const products = [
     price: 'CHF 38',
     description: 'Sportliche T-Shirts mit einem coolen Nummernlogo, ideal für Sportler.',
     options: '2 Farben',
-    imageSrc: 'src/assets/item4.jpg',
+    imageSrc: './src/assets/item4.jpg',
     imageAlt: 'T-Shirts mit Nummernlogo.',
   },
   {
@@ -46,7 +46,7 @@ const products = [
     price: 'CHF 65',
     description: 'Ein liebevoll zusammengestelltes Geschenkset für jeden Anlass.',
     options: 'Inklusive Verpackung',
-    imageSrc: 'src/assets/item5.jpg',
+    imageSrc: './src/assets/item5.jpg',
     imageAlt: 'Geschenkset.',
   },
   {
@@ -56,7 +56,7 @@ const products = [
     price: 'CHF 120',
     description: 'Ein komplettes Schmuckset, das jedes Outfit perfekt ergänzt.',
     options: 'Inklusive Ohrringe und Halskette',
-    imageSrc: 'src/assets/item6.jpg',
+    imageSrc: './src/assets/item6.jpg',
     imageAlt: 'Schmuck Set.',
   },
 ];

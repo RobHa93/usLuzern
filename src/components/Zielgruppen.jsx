@@ -6,7 +6,7 @@ const posts = [
     description:
       'Menschen, die regionale Produkte und Nachhaltigkeit schätzen. Sie möchten lokale Erzeugnisse unterstützen und bevorzugen Qualität aus der Region.',
     imageUrl:
-      './src/assets/BildZielgruppe1.jpg',
+      '../src/assets//BildZielgruppe1.jpg',
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const posts = [
     description:
       'Kleine Betriebe und Händler, die ihre Produkte einem breiteren Publikum zugänglich machen wollen, ohne eigene Online-Strukturen aufbauen zu müssen.',
     imageUrl:
-      './src/assets/BildZielgruppe2.jpg',
+      '../src/assets//BildZielgruppe2.jpg',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const posts = [
     description:
       'Für Menschen, die die Luzerner Kultur erleben möchten, und für Touristen, die lokale Produkte als Souvenir oder zum Wiederentdecken suchen.',
     imageUrl:
-      './src/assets/BildZielgruppe3.jpg',
+      '../src/assets//BildZielgruppe3.jpg',
   },
 ];
 
