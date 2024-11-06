@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const navigation = {
   main: [
     { name: 'Shop', href: '/shop' },
     { name: 'Über Uns', href: '/about-team' },
-    { name: 'Kontakt', href: '/kontakt' },
+    { name: 'Kontakt', href: '/Kontakt' },
     { name: 'Login', href: '/sign-in' },
     { name: 'Verkäufer werden', href: '/registration' },
   ],
@@ -35,24 +35,31 @@ const navigation = {
         </svg>
       ),
     },
-    // Weitere Social Media Icons hier
   ],
 };
 
 export default function Example() {
+  const location = useLocation();
+
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
         <nav aria-label="Footer" className="-mb-6 flex flex-wrap justify-center gap-x-12 gap-y-3 text-sm/6 font-sans">
           {navigation.main.map((item) => (
-            <Link key={item.name} to={item.href} className="text-gray-600 hover:text-gray-900">
+            <Link
+              key={item.name}
+              to={item.href}
+              className={`${
+                location.pathname === item.href ? 'text-[#B3AE1E]' : 'text-gray-600'
+              } hover:text-gray-900`}
+            >
               {item.name}
             </Link>
           ))}
         </nav>
         <div className="mt-16 flex justify-center gap-x-10">
           {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-gray-600 hover:text-gray-800">
+            <a key={item.name} href={item.href} className="text-gray-600 hover:text-[#222783]">
               <span className="sr-only">{item.name}</span>
               <item.icon aria-hidden="true" className="h-6 w-6" />
             </a>

@@ -29,7 +29,7 @@ export default function Example() {
                       <h2 className="text-4xl mb-14 font-bold text-gray-900 text-center font-serif">
                           Wir setzen auf regionale Verbundenheit und Qualität
                       </h2>
-                      <p className="mt-4 text-gray-500 font-sans">
+                      <p className="mt-4 text-gray-600 font-sans">
                           Bei usLuzern steht die Förderung lokaler Produzenten im Mittelpunkt. Wir verbinden dich mit
                           einzigartigen Produkten direkt aus der Region, die sorgfältig geprüft und mit Leidenschaft
                           hergestellt wurden. Für uns bedeutet Kundenservice, dass jedes Produkt nicht nur überzeugt,
@@ -38,14 +38,14 @@ export default function Example() {
                   </div>
                   <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
                       {incentives.map((incentive) => (
-                          <div key={incentive.name} className="sm:flex lg:block">
+                          <div key={incentive.name} className="sm:flex  lg:block">
                               <div className="sm:flex-shrink-0 m-a flex justify-center items-center">
                                   <img alt="" src={incentive.imageSrc} className="h-16 w-16" />
                               </div>
 
-                              <div className="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-                                  <h3 className="text-sm my-10 font-medium text-gray-900 font-serif">{incentive.name}</h3>
-                                  <p className="mt-2 text-sm text-gray-500 font-sans">{incentive.description}</p>
+                              <div className="mt-4 sm:ml -6 sm:mt-0 lg:ml-0 lg:mt-6">
+                                  <h3 className="text-sm my-10 font-medium text-[#222783] font-serif">{incentive.name}</h3>
+                                  <p className="mt-2 text-sm text-gray-600 font-sans">{incentive.description}</p>
                               </div>
                           </div>
                       ))}

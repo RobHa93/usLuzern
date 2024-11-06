@@ -1,5 +1,5 @@
 'use client'
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
@@ -14,17 +14,14 @@ const navigation = [
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchVisible, setSearchVisible] = useState(false);
+  const location = useLocation();
 
   return (
     <header className="bg-white">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <Link to="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Your Company</span>
-          <img
-            alt=""
-            src={logo}
-            className="h-8"
-          />
+          <img alt="" src={logo} className="h-8" />
         </Link>
 
         {/* Desktop Search Bar */}
@@ -39,7 +36,13 @@ export default function Example() {
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex lg:gap-x-12 items-center font-serif">
           {navigation.map((item) => (
-            <Link key={item.name} to={item.href} className="text-sm font-semibold text-gray-900">
+            <Link
+              key={item.name}
+              to={item.href}
+              className={`text-sm font-semibold ${
+                location.pathname === item.href ? 'text-[#B3AE1E]' : 'text-gray-900'
+              }`}
+            >
               {item.name}
             </Link>
           ))}
@@ -68,17 +71,6 @@ export default function Example() {
         </div>
       </nav>
 
-      {/* Mobile Search Bar */}
-      {searchVisible && (
-        <div className="lg:hidden px-6 py-4">
-          <input
-            type="text"
-            placeholder="Suche..."
-            className="border border-gray-300 rounded-md px-3 py-1 text-sm font-sans w-full max-w-xs focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
-      )}
-
       {/* Mobile Toggle Menu */}
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-10" />
@@ -86,11 +78,7 @@ export default function Example() {
           <div className="flex items-center justify-between">
             <Link to="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                alt=""
-                src={logo}
-                className="h-8 w-auto"
-              />
+              <img alt="" src={logo} className="h-8 w-auto" />
             </Link>
             <button
               type="button"
@@ -108,7 +96,9 @@ export default function Example() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-serif font-semibold text-gray-900 hover:bg-gray-50"
+                    className={`-mx-3 block rounded-lg px-3 py-2 text-base font-serif font-semibold ${
+                      location.pathname === item.href ? 'text-[#B3AE1E]' : 'text-gray-900'
+                    } hover:bg-gray-50`}
                   >
                     {item.name}
                   </Link>

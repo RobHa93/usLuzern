@@ -8,7 +8,7 @@ function CarouselSlider() {
     <Carousel className="rounded-xl sm:mt-20">
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src={luzern1}
+          src={luzern2}
           alt="image 1"
           className="h-full w-full object-cover"
         />
@@ -22,7 +22,7 @@ function CarouselSlider() {
 
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src={luzern2}
+          src={luzern3}
           alt="image 2"
           className="h-full w-full object-cover"
         />
@@ -36,7 +36,7 @@ function CarouselSlider() {
 
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src={luzern3}
+          src={luzern1}
           alt="image 3"
           className="h-full w-full object-cover"
         />

@@ -29,7 +29,7 @@ export default function Example() {
           </div>
           <p className="mt-4 text-sm text-gray-900 font-sans">
             Datenschutz ist uns wichtig. Lesen Sie unsere{' '}
-            <a href="#" className="font-semibold text-indigo-600 hover:text-indigo-500">
+            <a href="#" className="font-semibold text-[#1E6EB4] hover:text-[#B3AE1E]">
               Datenschutz&nbsp;Richtlinien
             </a>
             .

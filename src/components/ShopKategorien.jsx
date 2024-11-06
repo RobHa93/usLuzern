@@ -74,7 +74,7 @@ export default function Example() {
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 font-sans">{callout.address}</p>
                 {/* "Mehr erfahren" verlinkt zur About-Seite */}
-                <p className="text-sm text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-sans">
+                <p className="text-sm text-[#B3AE1E] opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-sans">
                   <Link to="/about-team">Mehr erfahren</Link>
                 </p>
               </div>
