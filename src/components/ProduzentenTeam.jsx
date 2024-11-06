@@ -1,3 +1,8 @@
+import Textilkunst from "../assets/textilkunst.png"
+import Kunsthandwerk from "../assets/Kunsthandwerk.jpg"
+import Naturkosmetik from "../assets/Naturkosmetik.jpg"
+
+
 const companies = [
     {
       id: 1,
@@ -36,7 +41,7 @@ const companies = [
       description:
         'Individuell gestaltete Kleidung und Textilien aus hochwertigen Materialien. Der Laden bietet alles von Schals bis zu handgefertigten Kleidungsstücken – einzigartig und lokal produziert.',
       imageUrl:
-        '../src/assets//textilkunst.png',
+        Textilkunst,
       address: 'Altstadtgasse 8, 6004 Luzern',
     },
     {
@@ -46,7 +51,7 @@ const companies = [
       description:
         'Galerie und Geschäft für handgefertigte Kunstwerke aus Luzern. Die perfekte Anlaufstelle für kunstvolle Geschenke und dekorative Einzelstücke.',
       imageUrl:
-        '../src/assets//Kunsthandwerk.jpg',
+        Kunsthandwerk,
       address: 'Künstlergasse 22, 6002 Luzern',
     },
     {
@@ -56,7 +61,7 @@ const companies = [
       description:
         'Naturkosmetikprodukte aus regionalen Zutaten. Von Seifen über Cremes bis hin zu Körperpflegeprodukten – alles mit Rücksicht auf Umwelt und Nachhaltigkeit.',
       imageUrl:
-        '../src/assets/Naturkosmetik.jpg',
+        Naturkosmetik,
       address: 'Hauptstrasse 31, 6003 Luzern',
     },
   ];

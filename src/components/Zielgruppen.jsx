@@ -1,3 +1,7 @@
+import Zielgruppe1 from "../assets/BildZielgruppe1.jpg"
+import Zielgruppe2 from "../assets/BildZielgruppe2.jpg"
+import Zielgruppe3 from "../assets/BildZielgruppe3.jpg"
+
 const posts = [
   {
     id: 1,
@@ -6,7 +10,7 @@ const posts = [
     description:
       'Menschen, die regionale Produkte und Nachhaltigkeit schätzen. Sie möchten lokale Erzeugnisse unterstützen und bevorzugen Qualität aus der Region.',
     imageUrl:
-      '../src/assets//BildZielgruppe1.jpg',
+    Zielgruppe1,
   },
   {
     id: 2,
@@ -15,7 +19,7 @@ const posts = [
     description:
       'Kleine Betriebe und Händler, die ihre Produkte einem breiteren Publikum zugänglich machen wollen, ohne eigene Online-Strukturen aufbauen zu müssen.',
     imageUrl:
-      '../src/assets//BildZielgruppe2.jpg',
+    Zielgruppe2,
   },
   {
     id: 3,
@@ -24,7 +28,7 @@ const posts = [
     description:
       'Für Menschen, die die Luzerner Kultur erleben möchten, und für Touristen, die lokale Produkte als Souvenir oder zum Wiederentdecken suchen.',
     imageUrl:
-      '../src/assets//BildZielgruppe3.jpg',
+    Zielgruppe3,
   },
 ];
 

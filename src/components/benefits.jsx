@@ -1,3 +1,4 @@
+
 const incentives = [
   {
       name: 'Kostenloser Versand',

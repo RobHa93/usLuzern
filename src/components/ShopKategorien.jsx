@@ -1,3 +1,7 @@
+import Textilkunst from "../assets/textilkunst.png"
+import Kunsthandwerk from "../assets/Kunsthandwerk.jpg"
+import Naturkosmetik from "../assets/Naturkosmetik.jpg"
+
 const callouts = [
   {
     id: 1,
@@ -27,21 +31,21 @@ const callouts = [
     id: 4,
     name: 'Textilkunst Luzern',
     href: '/shop-items',
-    imageUrl: '../src/assets/textilkunst.png',
+    imageUrl: Textilkunst,
     address: 'Altstadtgasse 8, 6004 Luzern',
   },
   {
     id: 5,
     name: 'Kunsthandwerk von Luzern',
     href: '/shop-items',
-    imageUrl: '../src/assets//Kunsthandwerk.jpg',
+    imageUrl: Kunsthandwerk,
     address: 'Künstlergasse 22, 6002 Luzern',
   },
   {
     id: 6,
     name: 'Naturkosmetik Luzern',
     href: '/shop-items',
-    imageUrl: '../src/assets//Naturkosmetik.jpg',
+    imageUrl: Naturkosmetik,
     address: 'Hauptstrasse 31, 6003 Luzern',
   },
 ];

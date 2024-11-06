@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import logo from '../assets/logo_usLuzern.png';
 
 const navigation = [
   { name: 'Shop', href: '/shop' },
@@ -21,7 +22,7 @@ export default function Example() {
           <span className="sr-only">Your Company</span>
           <img
             alt=""
-            src="../src/assets//logo_usLuzern.PNG"
+            src={logo}
             className="h-8"
           />
         </Link>
@@ -87,7 +88,7 @@ export default function Example() {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="../src/assets//logo_usLuzern.PNG"
+                src={logo}
                 className="h-8 w-auto"
               />
             </Link>

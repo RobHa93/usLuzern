@@ -1,11 +1,14 @@
 import { Carousel } from "@material-tailwind/react";
+import luzern1 from "../assets/luzern1.jpg"
+import luzern2 from "../assets/luzern2.jpg"
+import luzern3 from "../assets/luzern3.jpg"
 
 function CarouselSlider() {
   return (
     <Carousel className="rounded-xl sm:mt-20">
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src="../src/assets//luzern1.jpg"
+          src={luzern1}
           alt="image 1"
           className="h-full w-full object-cover"
         />
@@ -19,7 +22,7 @@ function CarouselSlider() {
 
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src="../src/assets//luzern2.jpg"
+          src={luzern2}
           alt="image 2"
           className="h-full w-full object-cover"
         />
@@ -33,7 +36,7 @@ function CarouselSlider() {
 
       <div className="relative lg:h-[400px] w-full sm:h-[200px]">
         <img
-          src="../src/assets//luzern3.jpg"
+          src={luzern3}
           alt="image 3"
           className="h-full w-full object-cover"
         />
